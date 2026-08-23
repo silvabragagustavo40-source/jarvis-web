@@ -3,7 +3,7 @@
 // Groq direto no navegador
 // ============================================================
 
-const GROQ_API_KEY = "COLE_SUA_CHAVE_AQUI";
+const GROQ_API_KEY = "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";
 
 const GROQ_URL =
   "https://api.groq.com/openai/v1/chat/completions";

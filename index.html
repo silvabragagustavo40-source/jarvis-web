@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, viewport-fit=cover"
+  >
+
+  <title>J.A.R.V.I.S. Web</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+  <header>
+    <div class="brand">J.A.R.V.I.S.</div>
+    <div class="online" id="online">● SYSTEM ONLINE</div>
+  </header>
+
+  <main>
+
+    <section class="scene">
+
+      <div class="hud">
+        <span class="tl">CORE: STABLE</span>
+        <span class="tr">WEB 1.0</span>
+        <span class="bl">VOICE SYSTEM</span>
+        <span class="br">AI READY</span>
+      </div>
+
+      <div class="reactor" id="reactor">
+
+        <div class="ring ring1"></div>
+        <div class="ring ring2"></div>
+        <div class="ring ring3"></div>
+
+        <div class="core"></div>
+
+      </div>
+
+    </section>
+
+    <section class="panel">
+
+      <div id="chat" class="chat">
+
+        <div class="msg jarvis">
+
+          <span class="tag">J.A.R.V.I.S.:</span>
+
+          <br>
+
+          Sistemas online. Aguardando seu comando.
+
+        </div>
+
+      </div>
+
+      <div
+        class="imagePreview"
+        id="imagePreview">
+      </div>
+
+      <div class="controls">
+
+        <input
+          id="input"
+          type="text"
+          placeholder="Digite um comando..."
+          autocomplete="off"
+        >
+
+        <label
+          class="iconButton"
+          title="Câmera / Imagem">
+
+          📷
+
+          <input
+            type="file"
+            id="imageInput"
+            accept="image/*"
+            capture="environment"
+            hidden
+          >
+
+        </label>
+
+        <button
+          class="iconButton"
+          id="mic"
+          title="Microfone">
+
+          🎙️
+
+        </button>
+
+        <button
+          class="send"
+          id="send">
+
+          ➤
+
+        </button>
+
+      </div>
+
+      <div class="menu">
+
+        <button id="status">
+          ⚡ STATUS
+        </button>
+
+        <button id="time">
+          ◷ HORA
+        </button>
+
+        <button id="voice">
+          🔊 VOZ
+        </button>
+
+        <button id="clear">
+          ⌫ LIMPAR
+        </button>
+
+      </div>
+
+    </section>
+
+  </main>
+
+</div>
+
+<div
+  class="voicePanel"
+  id="voicePanel">
+
+  <div class="voiceTitle">
+    J.A.R.V.I.S. // VOICE SYSTEM
+  </div>
+
+  <select id="voiceSelect"></select>
+
+  <button id="testVoice">
+    🔊 TESTAR VOZ
+  </button>
+
+  <button id="closeVoice">
+    FECHAR
+  </button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

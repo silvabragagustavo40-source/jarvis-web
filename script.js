@@ -584,4 +584,4 @@ function handleImage() {
 loadVoices();
 console.log(
   "J.A.R.V.I.S. V4 inicializado."
-);
+alert("J.A.R.V.I.S. V4 NOVA VERSÃO");
